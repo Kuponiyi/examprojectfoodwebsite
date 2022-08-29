@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    background: rgb(41, 41, 51);
+    clip-path: wave(20);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.me{
+    text-decoration: none;
+    font-size: 30px;
+}
+.me1{
+    color: #884401;
+}
+.me2{
+    color: #F58C1B;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 10px;
+}
+.navlink{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 2px 25px;
+    line-height: 20px;
+    color: white;
+    transition: all 1s linear; 
+}
+.navlink:hover{
+    background: #ffB600;
+    padding: 5px 9px;
+    border-radius: 5px;
+    box-shadow: 0 0 0.2rem grey;
+}
+.bot{
+    text-decoration: none;
+}
+.btnfill{
+    background: transparent;
+    border: 1px solid #ffB600;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btnfill2{
+    background: transparent;
+    border: 1px solid #ffB600;
+    color: #ffB600;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hungry{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 8% 14%;
+}
+.hungry2{
+    width: 40%;
+}
+.delivery{
+    width: 30%;
+}
+.delivery img{
+    width: 100%;
+    height: 30vh;
+}
+.hun1{
+    color: white;
+    font-size: 50px;
+}
+.hun{
+    color: #ffB600;
+    font-weight: 900;
+    font-size: 80px;
+}
+.here{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+.btn{
+    background: #ffB600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    margin-right: 40px;
+}
+.topmenu2{
+    background: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.topmenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.jollof1{
+    width: 25%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 4 4 4rem grey;
+    /* padding: 20px 20px; */
+    cursor: pointer;
+    overflow: hidden;
+}
+.jollof2{
+    width: 25%;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 6px;
+    /* padding: 20px 20px; */
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 4 4 4rem grey;
+}
+.jollof3{
+    width: 25%;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 6px;
+    overflow: hidden;
+    /* padding: 20px 20px; */
+    cursor: pointer;
+    box-shadow: 4 4 4rem grey;
+}
+.jollof1 img{
+    width: 100%;
+}
+.jollof2 img{
+    width: 100%;
+}
+.jollof3 img{
+    width: 100%;
+}
+.top{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.menu{
+    color: #ffB600;
+    font-size: 30px;
+}
+.chicken{
+    color: rgb(25, 25, 25);
+    font-size: 19px;
+    margin: 10px 20px;
+}
+.rice{
+    color: rgb(25, 25, 25);
+    font-size: 13px;
+    margin-left: 16px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+}
+.money{
+    color: #F9793C;
+    font-size: 15px;
+}
+.money1{
+    color: #ffB600;
+    font-size: 20px;
+}
+.special{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 60px 20px;
+}
+.special2{
+    width: 30%;
+    margin-top: 20px;
+}
+.boli{
+    width: 25%;
+    position: relative;
+    right: 20;
+    cursor: pointer;
+}
+.boli img{
+    width: 100%;
+}
+.boli2{
+    background: #ffB600;
+    padding: 50px 40px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.today{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.today2{
+    color: #ffB600;
+    font-size: 40px;
+    font-weight: 800;
+}
+.today3{
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 25px 5px;
+}
+.ourmenu{
+    background: whitesmoke;
+}
+.ourmenu2{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(25, 25, 25);
+    font-size: 20px;
+}
+.ourmenu3{
+    color: #ffB600;
+    font-size: 25px;
+}
+.menumenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    justify-content: space-evenly;
+}
+.whiterice{
+    width: 20%;
+    background: white;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 0 0.2rem gold;
+    margin-bottom: 20px;
+}
+.whiterice img{
+    width: 100%;
+}
+.service{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.service2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.discount{
+    background: whitesmoke;
+    width: 20%;
+    padding: 20px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 0.2rem grey;
+}
+.delivery{
+    background: #ffB600;
+    width: 20%;
+    padding: 20px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 0.2rem grey;
+}
+.system{
+    color: #ffB600;
+    font-size: 15px;
+    padding: 20px 15px;
+}
+.system2{
+    color: rgb(25, 25, 25);
+    font-size: 13px;
+    padding: 5px;
+}
+.system3{
+    color: white;
+    font-size: 15px;
+    padding: 20px 15px;
+}
+.bigfootal{
+    margin-top: 10%;
+}
+.footal3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footal2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.list{
+    list-style: none;
+}
+.list1{
+    list-style: none;
+    padding-right: 10px;
+}
+.list3{
+    list-style: none;
+    padding-left: 10px;
+}
+.footal{
+    margin: 20px 40px;
+    color: white;
+    font-size: 15px;
+}
+.right1{
+    width: 15%;
+    color: white;
+    font-size: 15px;
+}
+
+
+
